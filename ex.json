@@ -1,0 +1,35 @@
+{
+    "name": {
+        "common": "Turkey",
+        "official": "Republic of Turkey",
+        "nativeName": {
+            "tur": {
+                "official": "Türkiye Cumhuriyeti",
+                "common": "Türkiye"
+            }
+        }
+    },
+    "tld": [
+        ".tr"
+    ],
+    "capital": [
+        "Ankara"
+    ],
+    "region": "Asia",
+    "languages": {
+        "tur": "Turkish"
+    },
+    "landlocked": false,
+    "borders": [
+        "ARM",
+        "AZE",
+        "BGR",
+        "GEO",
+        "GRC",
+        "IRN",
+        "IRQ",
+        "SYR"
+    ],
+    "flag": "🇹🇷",
+    "population": 84339067
+}
