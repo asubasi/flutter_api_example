@@ -29,9 +29,16 @@ class _HomeScreenState extends State<HomeScreen> {
             CountriesLoaded data => ListView.builder(
                 itemCount: data.countries.length,
                 itemBuilder: (context, index) {
+                  final Color color = index.isEven ? const Color.fromARGB(255, 221, 221, 221) : Colors.white;
                   final country = data.countries[index];
                   return ListTile(
+                    tileColor: color,
+                    style: ListTileStyle.list,
                     title: Text(country.name!.common.toString()),
+                    leading: Text(
+                      country.flag.toString(),
+                      style: const TextStyle(fontSize: 30),
+                    ),
                   );
                 },
               ),
